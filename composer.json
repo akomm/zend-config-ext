@@ -1,0 +1,22 @@
+{
+    "name": "akomm/zend-config-ext",
+    "type": "composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andriy Komm",
+            "email": "andriy.komm@web.de"
+        }
+    ],
+    "repositories": [
+        {"type" : "vcs", "url": "https://github.com/akomm/zend-config.git"}
+    ],
+    "require": {
+        "zendframework/zend-config": "2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZendConfigExt\\": "src/"
+        }
+    }
+}
